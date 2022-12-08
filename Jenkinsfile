@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', 
+        git branch: 'main',
         url: 'https://github.com/Lee-seungkyu/cicd-test1.git'
       }
     }
@@ -29,3 +29,4 @@ pipeline {
     }
   }
 }
+
